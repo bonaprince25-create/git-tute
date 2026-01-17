@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 0;
+    background-color: thistle;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.wrapper .header{
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+    text-align: left;
+}
+.logo{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.wrapper .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 3px;
+    text-decoration: none;
+    margin: auto;
+}

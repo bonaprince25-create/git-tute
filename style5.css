@@ -1,0 +1,111 @@
+:root{
+    --deep-clr: #040463;
+    --light-clr: #3b3b98;
+    --white-clr: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    place-items: center;
+    background: url(images/profile.jpg) no-repeat center/cover;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 32rem;
+    width: 100%;
+    padding: 40px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    outline: 3px solid rgba(255, 255, 255, 0.25);
+    outline-offset: -5px;
+
+
+}
+h3{
+    color: var(--white-clr);
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+h4{
+    color: var(--white-clr);
+    font-size: 1rem;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.input-box{
+    margin: 10px 0;
+    height: 30px;
+    width: 100%;
+    padding: 5px 2px;
+}
+.input-box input{
+    display: block;
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    padding: 5px;
+    font-size: 1rem;
+    color: var(--black-clr);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid var(--white-clr);
+    transition: 0.5s;
+
+}
+.input-box input::placeholder{
+    color: rgb(212, 209, 209);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+.input-box input:focus{
+    border-bottom: 1px solid var(--light-clr);
+}
+.terms-conditions{
+    font-size: 0.9rem;
+    color: var(--white-clr);
+    background: rgba(255, 255, 255, 0.1);
+    border: #040463;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.terms-conditions label{
+    color: var(--light-clr);
+    text-decoration: none;
+    font-weight: bold;;
+
+}
+.terms-conditions checkbox{
+    accent-color: var(--light-clr);
+    margin-left: 5px;
+}
+button{
+    line-height: 1;
+    width: 200px;
+    height: 27px;
+    background: transparent;
+    color: var(--deep-clr);
+    font-weight: bold;
+    border: 1px solid var(--white-clr);
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+

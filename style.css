@@ -1,0 +1,104 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    display: flex;
+justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(243, 245, 248);
+    margin: 10px;
+
+}
+.wrapper{
+    text-align: center;
+    width: 420px;
+    background: rgb(28, 28, 248);
+    padding: 20px;
+    border-radius: 15px;
+
+    box-shadow: 3px 3px 15px rgb(191, 33, 240);
+}
+.wrapper h1{
+    color: rgb(237, 243, 119);
+    font-size:30px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(247, 226, 226, 0.879), -3px -2px 5px blue;
+}
+.wrapper .input-box{
+    margin: 30px 0;
+    height: 50px;
+    width: 100%;
+    
+
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 40px;
+    border: 2px solid purple;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 45px 20px 15px;
+}
+.input-box input::placeholder{
+    color: rgb(212, 209, 209);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+}
+.input-box i{
+    position: absolute;
+    margin: 15px;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    color: purple;
+    
+}
+
+.wrapper .remember-forgot{
+    font-size: 14px;
+    color: rgb(66, 27, 239);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .remember-forgot label input{
+    margin-right: 5px;
+    accent-color: rgb(244, 244, 247);
+}
+.wrapper .remember-forgot a{
+    text-decoration: none;
+    color: rgb(245, 244, 247);
+}
+.remember-forgot a:hover{
+text-decoration: underline;
+}
+
+.wrapper .btn{
+    height: 45px;
+    width: 100%;
+    border: none;
+    background: rgb(254, 252, 254);
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

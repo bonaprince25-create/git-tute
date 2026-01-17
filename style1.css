@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(35, 118, 241);
+    margin: 10px
+
+}
+h1{
+    color: tomato;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px;
+    border-style: outset;
+    border-color: purple;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(247, 226, 226, 0.879), -3px -2px 5px blue;
+    
+    
+}
+#p1{
+    color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+
+}
+#p2{
+    color:aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+#p3{
+    color: rgb(13, 232, 86);
+}
+#p4{
+    color: yellow;
+    font-family: fantasy;
+    font-size: 15px;
+    text-shadow: 2px 1px 3px;
+
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 10px rgb(191, 33, 240);
+}

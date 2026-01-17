@@ -1,0 +1,61 @@
+:root{
+--bgcolor: #1a79cf;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-holder{
+    background-color: aqua;
+    padding: 1.34rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    color: white;
+    align-self: center;
+    margin-left: 1.2rem;
+    font-size: 1rem;
+}
+.nav-bar{
+    margin: auto;
+}
+.nav-bar a{
+    color: white;
+    padding: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.menu-icon{
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+button{
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 3px;
+    text-decoration: none;
+    margin: auto;
+    justify-content: center;
+}
+@media screen and (max-width: 768px){
+    .nav-bar{
+        display: flex;
+    }
+    .menu-icon{
+        display: block;
+    }
+}

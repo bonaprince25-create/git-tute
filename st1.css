@@ -1,0 +1,39 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.container .card{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 400ms;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container .card:hover{
+    transform: scale(1.1, 1.1);
+}
+.container:hover .card:not(:hover){
+    opacity: 0.3;
+}
