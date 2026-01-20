@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: linear-gradient(#0b3c5d, #39a0e5);
+    color: #fff;
+}
+.navbar .logo{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: red 2px 2px 4px;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.school-info{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/students-studying-together-stockcake.jpg.webp) no-repeat center center/cover;
+    padding-left: 60px;
+    color: rgb(252, 249, 249);
+}
+.button1{
+    margin:auto;
+    border: o;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: rgb(235, 213, 15);
+    width: fit-content;
+    backdrop-filter: blur(10px);
+}
+.button1 a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-size: 1rem;
+}
+.button1:hover{
+    background: #faf7f7;
+    transition: 0.5s;
+    transform: scale(1.05);
+    filter: brightness(100%);
+}
+.school-info h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(252, 249, 249, 0.7);
+    color:#f73e3e
+}
+.school-info p{
+    font-size: 1.2rem;
+    max-width: 600px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: cursive;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: #f4f4f4;
+    box-shadow: #0b3c5d 0px 0px 10px;
+}
+.feature{
+    border: #0b3c5d 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0b3c5d;
+    color: white;
+    box-shadow: #f73e3e 2px 2px 5px;
+    width: 30%;
+    text-align: center;
+}
+.feature h3{
+    border: #f4f4f4 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 15px;
+    color: #f73e3e;
+}
+.feature p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.feature-first{
+    border: #fff 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f73e3e;
+    color: white;
+    box-shadow: #0b3c5d 2px 2px 5px;
+    width: 30%;
+    text-align: center;
+}
+.feature-first h3{
+    border: #f4f4f4 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 15px;
+    color: #0b3c5d;
+}
+.feature-first p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.feature-second{
+    border: #fff 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #927305;
+    color: white;
+    box-shadow: #b63ef7 2px 2px 5px;
+    width: 30%;
+    text-align: center;
+}
+.feature-second h3{
+    border: #f4f4f4 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 15px;
+    color: #b63ef7;
+}
+.feature-second p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.feature:hover, .feature-first:hover, .feature-second:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    filter: brightness(85%);
+}
+.courses{
+    padding: 50px 20px;
+}
+.courses h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #40abf2;
+    border: #0b3c5d 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-image: url(images/Flag_of_the_United_States_and_United_Kingdom.png);
+    background-size: cover;
+    text-shadow: #040000 2px 2px 5px;
+}
+.course{
+    border-bottom: black 2px solid;
+    box-shadow: #0b3c5d 2px 2px 5px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.course1{
+    border: #c310ef 2px solid;
+    border-radius: 5px;
+    padding: 50px;
+    background-image: url(https://t3.ftcdn.net/jpg/16/25/18/24/240_F_1625182483_kw2ZGCENaJuAgbhHhVHvmF5eqE0duGKw.jpg);
+    background-size: cover;
+    width: 30%;
+    text-align: center;
+    color: rgb(249, 245, 245);
+    margin: 5px;
+    text-shadow: #090101 2px 2px 5px;
+    box-shadow: #ea06ea 2px 2px 5px;
+    font-weight: bold;
+}
+.course2{
+    border: #0b3c5d 2px solid;
+    border-radius: 5px;
+    padding: 50px;
+    background-image: url(https://t4.ftcdn.net/jpg/16/09/53/67/240_F_1609536708_a1CaY2chBabzg0bTGQ0XLtxtvUTzJM42.jpg);
+    background-size: cover;
+    width: 30%;
+    text-align: center;
+    text-shadow: #090101 2px 2px 5px;
+    color: rgb(242, 237, 237);
+    margin: 5px;
+    box-shadow: #046868 2px 2px 5px;
+    font-weight: bolder;
+}
+.course3{
+    border: #f7d106 2px solid;
+    border-radius: 5px;
+    padding: 50px;
+    background-image: url(https://t4.ftcdn.net/jpg/08/98/29/75/240_F_898297595_WEzPIoCE54LqvHBuRHpi5fwjY00wTtV6.jpg);
+    background-size: cover;
+    width: 30%;
+    color: rgb(251, 250, 250);
+    margin: 5px;
+    text-align: center;
+    text-shadow: #090101 2px 2px 5px;
+    box-shadow: #f7d106 2px 2px 5px;
+    font-weight: bolder;
+}
+.course4{
+    border: #0b3c5d 2px solid;
+    border-radius: 5px;
+    padding: 50px;
+    background-image: url(https://t4.ftcdn.net/jpg/16/41/78/83/240_F_1641788342_1jEcaPKwDVvBhAVSIEV4QDAwnGmCp2f3.jpg);
+    background-size: cover;
+    width: 30%;
+    color:white;
+    margin: 5px;
+    text-align: center;
+    text-shadow: #f4f4f4 2px 2px 5px;
+    box-shadow: #0b3c5d 2px 2px 5px;
+    font-weight: bolder;
+}
+.course5{
+    border: #f73e3e 2px solid;
+    border-radius: 5px;
+    padding: 50px;
+    background-image: url(https://t3.ftcdn.net/jpg/16/01/63/96/240_F_1601639612_C6QuLrndtjPYdzD7aeQ4ulhiZDS8La4p.jpg);
+    background-size: cover;
+    width: 30%;
+    color: rgb(252, 250, 250);
+    margin: 5px;
+    text-align: center;
+    text-overflow: black 2px 2px 5px;
+    box-shadow: #f73e3e 2px 2px 5px;
+    font-weight: bolder;
+}
+.course6{
+    border: #927305 2px solid;
+    border-radius: 5px;
+    padding: 50px;
+    background-image: url(https://t3.ftcdn.net/jpg/06/14/77/92/240_F_614779204_JL2cN722arnlRZ3g7HykDNQmCaTVcVuY.jpg);
+    background-size: cover;
+    width: 30%;
+    color: rgb(252, 250, 250);
+    margin: 5px;
+    text-align: center;
+    text-shadow: #090101 2px 2px 5px;
+    box-shadow: #927305 2px 2px 5px;
+    font-weight: bolder;
+}
+
+.course1:hover, .course2:hover, .course3:hover, .course4:hover, .course5:hover, .course6:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    filter: brightness(85%);
+}
+.courses .button2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: oldlace 2px solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: #0b3c5d;
+    width: fit-content;
+    margin-left: auto;
+}
+.button2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.button2:hover{
+    background: #0514e6;
+    transition: 0.5s;
+    transform: scale(1.05);
+    filter: brightness(100%);
+}
+.enroll{
+    background: linear-gradient(rgba(18, 236, 244, 0.5), rgba(8, 16, 181, 0.5)), url(images/enroll.jpg) no-repeat center center/cover;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.enroll h2{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.enroll p{
+    color: white;
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+.enroll p a{
+    color: rgb(63, 13, 198);
+    text-decoration: none;
+    border:0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(211, 205, 19);
+    margin: 5px;
+}
+.enroll p a:hover{
+    background: #f7ae03;
+    transition: 0.5s;
+    transform: scale(1.05);
+    filter: brightness(100%);
+}
+footer{
+    background:linear-gradient(#0b3c5d, #39a0e5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
