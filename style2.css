@@ -23,7 +23,7 @@
     margin: auto;
 }
 .nav-bar a{
-    color: white;
+    color: black;
     padding: 1.5rem;
     cursor: pointer;
     text-decoration: none;
@@ -34,22 +34,35 @@
     cursor: pointer;
     display: none;
 }
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 button{
     font-size: 1rem;
-    border: 1px solid black;
     border-radius: 25px;
     padding: 5px;
+    background-color: rgb(39, 221, 218);
+    box-shadow: rgb(3, 82, 152) 2px 2px 4px;
+    cursor: pointer;
 }
 .nav-links{
     display: flex;
     list-style: none;
-    border: 1px solid black;
     border-radius: 15px;
-    background-color: white;
+    background-color: rgb(39, 221, 218);
+    box-shadow: rgb(5, 86, 186) 2px 2px 4px;
     padding: 3px;
     text-decoration: none;
-    margin: auto;
+    margin: 2px;
     justify-content: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    margin: 2p;
 }
 @media screen and (max-width: 768px){
     .nav-bar{

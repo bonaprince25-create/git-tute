@@ -88,8 +88,8 @@ h4{
 .terms-conditions label{
     color: var(--light-clr);
     text-decoration: none;
-    font-weight: bold;;
-
+    font-weight: bold;
+    cursor: pointer;;
 }
 .terms-conditions checkbox{
     accent-color: var(--light-clr);
@@ -107,5 +107,16 @@ button{
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
+
+}
+button:hover{
+    background: var(--white-clr);
+    color: var(--deep-clr);
+    box-shadow: 0 0 10px var(--white-clr), 0 0 40px var(--white-clr), 0 0 80px var(--white-clr);
+}
+@media (max-width: 480px){
+    .wrapper{
+        padding: 20px;
+    }
 }
 

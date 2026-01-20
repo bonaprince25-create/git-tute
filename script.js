@@ -1,1 +1,3 @@
-console.log(HELLO WORLD);
+let firstname = "Bonaventure";
+console.log(firstname);
+console.log(firstname.length);
