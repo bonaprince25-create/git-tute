@@ -1,0 +1,385 @@
+:root{
+    --pink:#e84393;
+    --white: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+body{
+    background-color: rgb(249, 230, 234);
+}
+html{
+    font-size: 94.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: relative;
+    margin: 0;
+    background: hwb(0 81% 2% / 0.734);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.logo{
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.logo h1{
+    font-weight: 100px;
+    font-size: 40px;
+    color: var(--pink);
+    text-shadow: 4px 4px 4px black;
+}
+.navbar{
+    margin-left: 5rem;
+
+}
+.navbar a{
+    color: rgb(53, 42, 42);
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a:hover{
+    font-size: 1.4rem;
+    color: var(--pink);
+    transition: .5s;
+    background-color: rgb(242, 172, 236);
+    box-shadow: 3px 3px 3px black inset;
+    border-radius: 15px;
+}
+header .icons a{
+    color: rgb(71, 56, 56);
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+header .icons a:hover{
+    color: var(--pink);
+    font-size: 2.1rem;
+}
+.container{
+    background-image: url(https://thumbs.dreamstime.com/b/rose-gold-saxophone-flowers-pastel-pink-background-359075374.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+}
+.content{
+    width: 50%;
+}
+.content h2{
+    color: black;
+    font-family: bungee;
+    margin-left: 3rem;
+    margin-top: 2rem 0;
+    padding: 2rem 9%;
+}
+.content p{
+    color: black;
+    font-family: anton;
+    font-size: 1.1rem;
+    margin-left: 3rem;
+}
+.content a{
+    background: var(--pink);
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    margin-left: 19rem;
+    margin-top: 1.5rem 0;
+    display: inline block;
+    font-size: 20px;
+    bottom: 10px;
+    
+}
+.content .course{
+    height: 90px;
+    box-shadow: 3px 3px 2px  ;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 5px;
+    margin-top: 6px;
+    backdrop-filter: blur(10px);
+}
+.content .course p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button a{
+    box-shadow: 3px 3px 4px inset rgb(14, 14, 14) ;
+}
+.content a:hover{
+    color: white;
+    background: transparent;
+    padding: 6px;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    margin: 5px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 2px 3px 3px rgb(161, 110, 110);
+}
+.about h1{
+    color: rgb(92, 63, 84);
+    text-align: center;
+    background: #fc9ecc;
+    width: 100%;
+    margin: 7px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .content1{
+    margin: 2px;
+    width: 50%;
+}
+.about .content1 h2{
+    background: #f5d0e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .content1 p{
+    margin: 6px;
+    color: rgb(3, 3, 137);
+}
+.row .content1 a{
+    margin-top: 10px;
+    background: rgb(243, 81, 151);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 4px 4px 4px rgb(75, 14, 14) inset;
+    margin: 5px;
+    padding: 5px;
+    bottom: 10px
+}
+.row .content1 a:hover{
+    padding: 7px;
+    border-radius: 15px;
+    background: #f50a7c;
+}
+.row .video-container{
+    flex: 1 1 40rem;
+    position: relative;
+}
+.row .video-container video{
+    width: 100%;
+    border: .5rem solid rgb(247, 225, 247);
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgb(243, 164, 243);
+    height: 100%;
+    object-fit: cover;
+}
+.icons-cont{
+    background: white;
+    padding: 2rem;
+}
+.icons-cont .icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.icons-cont .icons h3{
+    color: rgb(113, 36, 36);
+}
+
+.icons-cont .icons p{
+    background: #faf1f5;
+    border-radius: 5px;
+}
+.products{
+    background: #faf1f5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.products h1{
+    background: pink;
+    color: rgb(3, 3, 3);
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;;
+    box-shadow: 1px 1px 2px rgb(90, 9, 90);
+}
+span{
+    color: var(--pink);
+    padding-left: 5px;
+    box-shadow: 1px 1px 2px rgb(94, 1, 94);
+    border-radius: 2px;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+}
+.box-container .box{
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 220px;
+    padding: 2px;
+    margin: 4px;
+    background: #f5d0e2;
+    height: 335px;
+    align-content: center;
+}
+.box-container .box .discount{
+    color: var(--pink);
+    display: inline-block;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    background-color: #f9c8df;
+    box-shadow: 2px 2px 3px purple;
+    text-shadow: 1px 1px 2px rgb(40, 2, 40);
+    margin: 2px;
+}
+.box-container .box .icons{
+    color: rgb(72, 59, 59);
+    text-align: center;
+}
+.box-container .box .icons a{
+    color: var(--pink);
+    font-size: 17px;
+    padding: 2px;
+}
+.box-container .box .icons a:hover{
+    color:rgb(36, 36, 218);
+    padding: 4px;
+}
+.box-container .box .icons .image{
+    background: rgb(249, 152, 191);
+    
+}
+.box-container .box .icons .image h4{
+    width: 100%;
+    background: #f6dde9;
+    font-size: 12px;
+}
+.box-container .box .icons .image .price{
+    font-weight: bold;
+    background: #f2499b;
+    color: black
+}
+.box-container .box .icons .image img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.more-products{
+    background: #faf1f5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.more-products h1{
+    background: pink;
+    color: rgb(3, 3, 3);
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;;
+    box-shadow: 1px 1px 2px rgb(90, 9, 90);
+}
+.more-products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin: 10px;
+}
+.more-products .box-container .box{
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 220px;
+    padding: 2px;
+    margin: 0px;
+    background: #f5d0e2;
+    height: 335px;
+    align-content: center;
+}
+.more-products .box-container .box .icons .image{
+    background: rgb(249, 152, 191);
+}
+.more-products .box-container .box .icons .image h3{
+    width: 100%;
+    background: #f6dde9;
+    font-size: 12px;
+}
+.more-products .box-container .box .icons .image .price{
+    font-weight: bold;
+    background: #f2499b;
+    color: black
+}
+.box-container .box .icons .image img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 200px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

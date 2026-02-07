@@ -1,0 +1,128 @@
+:root{
+    --pink: #ff007f;
+}
+body{
+    background-color: #f9e7f0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', 'Geneva', 'Arial', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    padding: 2rem 9%;
+    background: hwb(0 81% 2% / 0.734);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header #logo{
+    font-size: 3rem;
+    color: var(--pink);
+    font-weight: bolder;
+    text-shadow: #333 2px 2px 4px;
+}
+/*header .navbar{
+        position: absolute;
+        top:0; left: 0; right: 0;
+        background: hsl(0, 20%, 97%);
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+*/
+header .navbar a{
+    color: #333;
+    padding:1.5rem;
+    font-size: 2rem;
+}
+header .navbar a:hover{
+    color: var(--pink);
+}
+header .icons a{
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+header .icons a:hover{
+    color: var(--pink);
+}
+#menu-bar{
+    display: none;
+}
+header .fas.fa-bars{
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+    display: list-item;
+}
+.fas.fa-bars:hover{
+    color: var(--pink);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+
+}
+@media (max-width:768px){
+    header .fas.fa-bars{
+        display: block;
+    }
+    header .navbar{
+        position: absolute;
+        top:100%; left:0; right: 0;
+        background: #eee;
+        border-top: 1rem solid rgba(0,0,0,.1);
+
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,.1);
+        display: block;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    
+}
+*
+
+
