@@ -22,13 +22,12 @@ html{
 header{
     position: fixed;
     margin: 0;
-    background: hwb(327 71% 2% / 0.734);
+    background: pink;
     display: flex;
     align-items: center;
     justify-content: space-between;
     transition: .4s;
     top: 0; left: 0; right: 0;
-    
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 .logo{
@@ -59,7 +58,7 @@ header{
     color: var(--pink);
     transition: .5s;
     background: transparent;
-    box-shadow: 3px 3px 3px black inset;
+    box-shadow: 2px -4px 4px rgb(190, 54, 97) inset;
     border-radius: 22px;
 }
 header .icons a{
@@ -107,16 +106,16 @@ header .icons a:hover{
     border-radius: 20px;
     color: black;
     padding: 5px;
-    margin-left: 19rem;
-    margin-top: 1.5rem 0;
+    text-align: center;
+    margin: 20px;
     display: inline block;
-    font-size: 20px;
+    font-size: 12px;
     bottom: 10px;
     
 }
 .content .course{
-    height: 90px;
-    box-shadow: 3px 3px 2px  ;
+    height: 100px;
+    box-shadow: 2px 2px 2px rgb(186, 79, 135);
     border-radius: 10px;
     width: 70%;
     margin-left: 5px;
