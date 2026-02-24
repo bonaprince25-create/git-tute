@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Desktop/music"
+		}
+	],
+	"settings": {
+		"commentTranslate.targetLanguage": "en",
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}
